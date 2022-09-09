@@ -1,0 +1,43 @@
+body{
+    color: #222;
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bloco-branco{
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin:40px auto 0 auto;
+    width: 50%;
+}
+
+.flex-centro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-rose{
+    background-color: #f0f0f0;
+}
+
+.bloco-menor{  
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+}
+
+h1{
+    font-size:3em
+}
+
+h2{
+    font-size:2em;
+}
+
+#hora{
+    font-size:10em;
+}
